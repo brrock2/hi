@@ -1,3 +1,16 @@
 def on_forever():
-    music.play(music.string_playable("", 120), music.PlaybackMode.UNTIL_DONE)
+    basic.show_leds("""
+    . . . . .
+    . . . . .
+    . . # . .
+    . . . . .
+    . . . . .
+    """)
+    basic.show_leds("""
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    """)
 basic.forever(on_forever)
